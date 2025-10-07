@@ -1,0 +1,52 @@
+/* Blank stylesheet for the profile card project */
+
+/* Set page background to light pink */
+body {
+	background-color: lightpink;
+}
+
+/* Use a clean sans-serif font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+body {
+	font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+/* Card container */
+.card {
+	background: #ffffff;
+	border: 1px solid #e6e6e6;
+	border-radius: 8px;
+	padding: 1.5rem;
+	max-width: 40rem;
+	margin: 2.5rem auto;
+	box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+/* Center and enlarge the main headings */
+h1 {
+	text-align: center;
+	font-size: 3rem;
+	margin-top: 2rem;
+	margin-bottom: 0.5rem;
+  color: #0b6623; /* dark green */
+}
+
+h2 {
+	text-align: center;
+	font-size: 1.5rem;
+	margin-top: 0;
+	margin-bottom: 1rem;
+	font-weight: 500;
+	color: #2e8b57; /* lighter green */
+}
+
+/* Paragraph typography for better readability */
+p {
+  font-size: 1.125rem; /* ~18px */
+  line-height: 1.6;
+  max-width: 36rem;
+  margin: 0 auto 2rem auto; /* center and add bottom spacing */
+	text-align: center;
+  color: #222222;
+  padding: 0 1rem;
+}
