@@ -5,10 +5,9 @@ body {
 	background-color: lightpink;
 }
 
-/* Use a clean sans-serif font */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+/* Use San Francisco / system font stack */
 body {
-	font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "San Francisco", "Segoe UI", Roboto, "Helvetica Neue", Arial, system-ui, sans-serif;
 }
 
 /* Card container */
