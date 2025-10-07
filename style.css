@@ -22,6 +22,16 @@ body {
 	box-shadow: 0 6px 18px rgba(0,0,0,0.06);
 }
 
+/* Profile image inside the card */
+.profile-img {
+  display: block;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0.5rem auto 1rem auto;
+}
+
 /* Center and enlarge the main headings */
 h1 {
 	text-align: center;
@@ -49,4 +59,26 @@ p {
 	text-align: center;
   color: #222222;
   padding: 0 1rem;
+}
+
+/* Style lists inside the card: remove bullets and add spacing */
+.card ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 1.5rem 0;
+	display: block;
+}
+
+.card li {
+	margin: 0.5rem 0;
+}
+
+.card a {
+	color: #0b6623;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.card a:hover {
+	text-decoration: underline;
 }
